@@ -9,12 +9,16 @@
     "aws-serverless-express": "^2.2.0",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "node-uuid": "^1.4.8"
+    "node-uuid": "^1.4.8",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
