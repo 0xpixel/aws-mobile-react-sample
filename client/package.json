@@ -35,7 +35,7 @@
   "dependencies": {
     "aws-amplify": "^1.0.0",
     "aws-amplify-react": "^1.0.0",
-    "aws-api-gateway-client": "^0.2.7",
+    "aws-api-gateway-client": "^0.3.6",
     "aws-serverless-express": "^2.2.0",
     "aws4": "^1.6.0",
     "axios": "^0.16.1",
