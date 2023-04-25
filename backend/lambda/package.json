@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "amazon-cognito-identity-js": "^1.16.0",
+    "amazon-cognito-identity-js": "^2.0.0",
     "aws-sdk": "^2.49.0",
     "aws-serverless-express": "^2.2.0",
     "body-parser": "^1.17.1",
